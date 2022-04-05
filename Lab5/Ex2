@@ -1,0 +1,7 @@
+the function will be created that receive the word:
+    An if statement will be generated to house the base case which will be zero
+    An elif statement will be produced with conditions as follows:
+        if the first index is not equal to the last index
+            it will return false/the word is not palindrome
+    if the conditions in the elif statement are not met, the function will call
+    itself until the bace case condition is met, which will then return true/the word is palindrome
