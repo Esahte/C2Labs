@@ -7,4 +7,3 @@ for i in FN:
 Ins.pop()
 Ins = ''.join(Ins)
 print(Ins)
-
