@@ -7,10 +7,10 @@ def main():
     c1 = Complex(a, b)
     c, d = eval(input("Enter the second complex number: "))
     c2 = Complex(c, d)
-    print(f'{str(c1)} + {str(c2)} = {str(c1 + c2)}')
-    print(f'{str(c1)} - {str(c2)} = {str(c1 - c2)}')
-    print(f'{str(c1)} * {str(c2)} = {str(c1 * c2)}')
-    print(f'{str(c1)} / {str(c2)} = {str(c1 / c2)}')
+    print(f'{c1} + {c2} = {c1 + c2}')
+    print(f'{c1} - {c2} = {c1 - c2}')
+    print(f'{c1} * {c2} = {c1 * c2}')
+    print(f'{c1} / {c2} = {c1 / c2}')
     print(f'|{str(c1)}| = {str(abs(c1))}')
 
 

@@ -1,24 +1,17 @@
 Lks = [False for o in range(100)]
-S1 = 0
-while S1 < len(Lks):
-    Lks[S1] = True
-    S1 += 1
 
-Ts = 1
-while Ts <= len(Lks):
+for Ts in range(len(Lks)):
     m = Ts
     while m < len(Lks):
-        if not Lks[m]:
-            Lks[m] = True
-        else:
-            Lks[m] = False
+        Lks[m] = not Lks[m]
 
         m += Ts + 1
-    Ts += 1
+# for i in range(1, len(Lks) + 1):
+#     for j in range(i - 1, len(Lks), i):
+#         Lks[j] = not Lks[j]
 
-Ol = 0
-while Ol < len(Lks):
+
+for Ol in range(len(Lks)):
     if Lks[Ol]:
-        print(f'Locker {Ol} Open')
+        print(f'Locker {Ol + 1} Open')
 
-    Ol += 1
